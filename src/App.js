@@ -8,9 +8,6 @@ import DirectionsHours from './DirectionsHours.js';
 
 function App() {
 
-  //const HashRouter = ReactRouterDOM.HashRouter;
-  //const Route = ReactRouterDOM.Route;
-
   return (
       
       <Router>
@@ -27,7 +24,7 @@ function App() {
 
   );
     
-      {/* Home - image of the beach and a button for the current wind conditions
+      {/* Home - image of the beach and a button for the current wind conditions, need logo and transparent button below it
       Reservation - form for reserving a lesson or gear
       Directions & Hours - page with text including the full address and hours */}
     

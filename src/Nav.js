@@ -7,11 +7,11 @@ function Nav() {
 
     return (
 
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark" id="nav-bar">
 
-            <a className="navbar-brand" href="/">Windsurfing</a>
+            <a className="navbar-brand" id = "nav-name" href="/">Windsurfing Co.</a>
     
-            <div className="collapse navbar-collapse" id="navbarNav">
+            <div className="navbar-expand" id="navbarNav">
                 <ul className="navbar-nav">
                     <li className="nav-item">
                         <Link className="nav-link" to="/">Home </Link>
